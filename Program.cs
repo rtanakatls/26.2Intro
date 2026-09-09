@@ -48,7 +48,7 @@ namespace Intro262
 
             Console.WriteLine($"El tercer ángulo vale {180 - (angle1 + angle2)}");
             */
-
+            /*
             string job;
 
             job = "Alchemist";
@@ -67,6 +67,17 @@ namespace Intro262
                 default:
                     Console.WriteLine("No existe ese trabajo");
                     break;
+            }
+            */
+
+            int i = 1;
+            int n = 50;
+
+
+            while(i<=n)
+            {
+                Console.WriteLine(i);
+                i++;
             }
         }
     }

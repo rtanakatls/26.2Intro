@@ -21,7 +21,7 @@ namespace Intro262
             age = int.Parse(Console.ReadLine());
             Console.WriteLine($"Veo que tienes {age} años y el próximo cumplirás {age + 1}");
             */
-
+            /*
             float a;
             float b;
 
@@ -47,8 +47,27 @@ namespace Intro262
             float angle2 = 60;
 
             Console.WriteLine($"El tercer ángulo vale {180 - (angle1 + angle2)}");
+            */
 
+            string job;
 
+            job = "Alchemist";
+
+            switch(job)
+            {
+                case "Paladin":
+                    Console.WriteLine("Eres un paladín");
+                    break;
+                case "Warrior":
+                    Console.WriteLine("Eres un guerrero");
+                    break;
+                case "Mage":
+                    Console.WriteLine("Eres un mago");
+                    break;
+                default:
+                    Console.WriteLine("No existe ese trabajo");
+                    break;
+            }
         }
     }
 }
